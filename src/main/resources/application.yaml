@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: gardenshop
+    username: gardenshop
+    url: jdbc:mysql://localhost:3306/gardenshop
+
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug
